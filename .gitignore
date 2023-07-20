@@ -5,3 +5,16 @@ csc-to-matlab
 matlab-to-csc
 mkl-matrix-inv
 mpi-matrix-inv
+build
+commitlint.config.js
+julia/mkl-matrix-inv_example/input_matrix.txt
+julia/mkl-matrix-inv_example/output.log
+julia/mkl-matrix-inv_example/output_matrix.txt
+julia/mpi-matrix-inv_example/output.log
+julia/mpi-matrix-inv_example/sprandsym-s1000-d1-c2-n1.cp
+julia/mpi-matrix-inv_example/sprandsym-s1000-d1-c2-n1.out.val
+julia/mpi-matrix-inv_example/sprandsym-s1000-d1-c2-n1.ri
+julia/mpi-matrix-inv_example/sprandsym-s1000-d1-c2-n1.val
+node_modules/
+package-lock.json
+package.json
