@@ -392,7 +392,7 @@ int main(int argc, char *argv[]) {
       if (mkl_threads < 1) {
         mkl_threads = 1;
       }
-      mkl_set_num_threads(2);
+      mkl_set_num_threads(mkl_threads);
 
       printf("%d: We have %d thread(s) to solve %d submatrices. Give %d "
              "thread(s) to MKL for each submatrix operation.\n",
